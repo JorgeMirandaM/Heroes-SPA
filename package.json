@@ -2,6 +2,7 @@
   "name": "heroes-spa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://JorgeMirandaM.github.io/Heroes-SPA",
   "dependencies": {
     "@babel/preset-env": "^7.22.7",
     "@babel/preset-react": "^7.22.5",
@@ -10,6 +11,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@types/jest": "^29.5.3",
     "babel-jest": "^29.6.1",
+    "gh-pages": "^5.0.0",
     "query-string": "^8.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -19,6 +21,8 @@
     "whatwg-fetch": "^3.6.2"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "jest --watchAll",

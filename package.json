@@ -2,7 +2,7 @@
   "name": "heroes-spa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://JorgeMirandaM.github.io/Heroes-SPA",
+  "homepage": "https://JorgeMirandaM.github.io/React_Heroes-SPA",
   "dependencies": {
     "@babel/preset-env": "^7.22.7",
     "@babel/preset-react": "^7.22.5",
